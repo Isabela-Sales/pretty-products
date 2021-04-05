@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Karma", serif;
 }
 
 *, *::before, *::after {
@@ -8,3 +10,27 @@ html {
 
 /* font-family: 'Karma', serif;
 font-family: 'Oswald', sans-serif; */
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 1rem;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 0;
+  color: #6f00e7;
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 1.4rem;
+}
